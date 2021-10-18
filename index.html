@@ -17,22 +17,7 @@
 </head>
 
 <body>
-    
-    <div style="width:640px;height:480px;max-width:100%">
-        <div id="game"></div>
-    </div>
-    <script type="text/javascript">
-        EJS_player = '#game';
-        EJS_biosUrl = 'arcade.7z'; // Url to Bios file
-        EJS_gameUrl = 'mslug.zip'; // Url to Game rom
-        EJS_core = 'arcade';
-        EJS_pathtodata = 'data/'; //path to all of the wasm and js files. MUST all be in the same directory!!
-        EJS_onGameStart = function () {
-            document.querySelectorAll('[data-btn="fullscreen"]')[0].click();
-            document.querySelectorAll('[value="crt-geom.glslp"]')[0].click();
-        }
-    </script>
-    <script src="data/loader.js"></script>
+    <iframe src="https://www.retrogames.cc/embed/9159-metal-slug-3-ngh-2560.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>
 </body>
 
 </html>
